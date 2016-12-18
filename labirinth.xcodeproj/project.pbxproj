@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7902A751DFD891E009AAA1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7902A741DFD891E009AAA1C /* main.cpp */; };
+		D790AEDC1E0587E90088ED45 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790AEDB1E0587E90088ED45 /* AudioToolbox.framework */; };
+		D790AEDE1E0587F70088ED45 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D790AEDD1E0587F70088ED45 /* CoreFoundation.framework */; };
+		D790AEE11E0588530088ED45 /* AudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D790AEDF1E0588530088ED45 /* AudioPlayer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7902A6F1DFD891E009AAA1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7902A711DFD891E009AAA1C /* labirinth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = labirinth; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7902A741DFD891E009AAA1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D790AEDB1E0587E90088ED45 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D790AEDD1E0587F70088ED45 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D790AEDF1E0588530088ED45 /* AudioPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioPlayer.cpp; path = "../../../../Downloads/auplay-master/AudioPlayer.cpp"; sourceTree = "<group>"; };
+		D790AEE01E0588530088ED45 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayer.h; path = "../../../../Downloads/auplay-master/AudioPlayer.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7902A6E1DFD891E009AAA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D790AEDE1E0587F70088ED45 /* CoreFoundation.framework in Frameworks */,
+				D790AEDC1E0587E90088ED45 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7902A681DFD891E009AAA1C = {
+			isa = PBXGroup;
+			children = (
+				D7902A731DFD891E009AAA1C /* labirinth */,
+				D7902A721DFD891E009AAA1C /* Products */,
+				D790AEDA1E0587E90088ED45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7902A721DFD891E009AAA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7902A711DFD891E009AAA1C /* labirinth */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7902A731DFD891E009AAA1C /* labirinth */ = {
+			isa = PBXGroup;
+			children = (
+				D790AEDF1E0588530088ED45 /* AudioPlayer.cpp */,
+				D790AEE01E0588530088ED45 /* AudioPlayer.h */,
+				D7902A741DFD891E009AAA1C /* main.cpp */,
+			);
+			path = labirinth;
+			sourceTree = "<group>";
+		};
+		D790AEDA1E0587E90088ED45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D790AEDD1E0587F70088ED45 /* CoreFoundation.framework */,
+				D790AEDB1E0587E90088ED45 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7902A701DFD891E009AAA1C /* labirinth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7902A781DFD891E009AAA1C /* Build configuration list for PBXNativeTarget "labirinth" */;
+			buildPhases = (
+				D7902A6D1DFD891E009AAA1C /* Sources */,
+				D7902A6E1DFD891E009AAA1C /* Frameworks */,
+				D7902A6F1DFD891E009AAA1C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = labirinth;
+			productName = labirinth;
+			productReference = D7902A711DFD891E009AAA1C /* labirinth */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7902A691DFD891E009AAA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Даниил Яныгин";
+				TargetAttributes = {
+					D7902A701DFD891E009AAA1C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7902A6C1DFD891E009AAA1C /* Build configuration list for PBXProject "labirinth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7902A681DFD891E009AAA1C;
+			productRefGroup = D7902A721DFD891E009AAA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7902A701DFD891E009AAA1C /* labirinth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7902A6D1DFD891E009AAA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7902A751DFD891E009AAA1C /* main.cpp in Sources */,
+				D790AEE11E0588530088ED45 /* AudioPlayer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7902A761DFD891E009AAA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7902A771DFD891E009AAA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7902A791DFD891E009AAA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7902A7A1DFD891E009AAA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7902A6C1DFD891E009AAA1C /* Build configuration list for PBXProject "labirinth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7902A761DFD891E009AAA1C /* Debug */,
+				D7902A771DFD891E009AAA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7902A781DFD891E009AAA1C /* Build configuration list for PBXNativeTarget "labirinth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7902A791DFD891E009AAA1C /* Debug */,
+				D7902A7A1DFD891E009AAA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7902A691DFD891E009AAA1C /* Project object */;
+}
